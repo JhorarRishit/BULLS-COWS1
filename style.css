@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /*background-image:back;*/
+}
+canvas {
+  display: cover;
+  /*width: 1400px;*/
+
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-image: url("farm.png");
+  
+  
+}
+/*GameStae Preload {
+
+  height: 700px;
+  background-size: auto;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-image: url("bullscow2.png");
+  
+}*/
+input{
+ color:cyan;
+ background-image: linear-gradient(to right, red,cyan);
+ width: 500px;
+ height:50px;
+ border-radius: 100px;
+font-size: larger; 
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(Caribbean.ttf);
+  font: size 12;
+}
+input:hover{
+  background-image:radial-gradient(red,yellow);
+}
+*{
+  font-family: myFirstFont;
+}
+button{
+  border-radius: 100px;
+  width:200px;
+  height:50px;
+  font-size:20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
